@@ -1,0 +1,229 @@
+header 
+{
+  background-color: lightblue;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+h1 {
+  text-align: center;
+}
+main {
+  
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+section {
+  width: 35%;
+}
+
+
+.article1 
+
+{
+  background-color:lightgreen;
+  height: 80px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+
+}
+.article2 
+
+{
+  background-color: orange;
+  height: 80px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+
+
+}
+
+.article3 
+
+{
+  background-color: purple;
+  height: 80px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+
+
+}
+.article4 
+
+{
+  height: 80px;
+  background-color:lawngreen;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+aside {
+  background-color:rgb(162, 0, 255);
+  width: 30%;
+  height: 170px;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+
+}
+
+footer
+{
+  background-color: rgb(7, 63, 82);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+
+
+@media only screen and (max-width: 567px) {
+  body {
+    background: rgb(224, 59, 9);
+
+  }
+  main {
+    display: block;
+  }
+  header 
+  {
+    background-color: lightblue;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+  
+  }
+ 
+  main {
+    
+    display: block;
+    flex-direction: row-reverse;
+    
+  }
+  section {
+    width: 100%;
+  }
+  aside {
+    background-color:rgb(162, 0, 255);
+    width: 100%;
+    height: 170px;
+    margin-top: 10px;
+    margin-right: 20px;
+   
+  }
+  
+  .article4 
+
+  {
+    margin-right: 0 ;
+
+  }
+
+  .article3 
+
+  {
+    margin-right: 0 ;
+    
+  }
+  .article2
+
+  {
+    margin-right: 0 ;
+   
+  }
+  .article1
+
+  {
+    margin-right: 0 ;
+   
+  }
+
+
+}
+
+@media only screen and (max-width: 567px) {
+  body {
+    background: green;
+
+  }
+  main {
+    display: block;
+  }
+  header 
+  {
+    background-color: lightblue;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+  
+  }
+ 
+  main {
+    
+    display: block;
+    flex-direction: row-reverse;
+    
+  }
+  section {
+    width: 100%;
+  }
+  aside {
+    background-color:rgb(162, 0, 255);
+    width: 100%;
+    height: 170px;
+    margin-top: 10px;
+    margin-right: 20px;
+   
+  }
+  
+  .article4 
+
+  {
+    margin-right: 0 ;
+
+  }
+
+  .article3 
+
+  {
+    margin-right: 0 ;
+    
+  }
+  .article2
+
+  {
+    margin-right: 0 ;
+   
+  }
+  .article1
+
+  {
+    margin-right: 0 ;
+   
+  }
+
+
+}
